@@ -1,0 +1,155 @@
+.naslov {color:black ;
+		font-size:65px;
+		font-family: forte;
+		padding-left: 20px;
+		text-shadow: 2px 3px white;
+		letter-spacing:6px; 
+	}
+body { background-color: #919091;
+}
+.vrh{
+	background-color: #94231b;
+	color: white;
+	font-family: forte;
+	font-size: 20px;
+}
+.uvod {background-image: url("daske.jpg");
+		background-size: center;
+		background-position:center;
+		 }
+.tekst{
+	font-size:20px;
+		font-family: forte;
+		color:black;
+		padding-left:20px;
+		text-shadow: 2px 3px gray;
+	}
+
+.ikona{ 
+	border-radius: 15px;
+	
+
+}
+.nav{
+	width: 100%;
+	font-size: 23px;
+	font-family: Forte;
+	letter-spacing: 3px;
+	text-align: center;
+	z-index: 9999;
+}
+ul{
+	margin: 0 auto;
+	float: left;
+	background: linear-gradient(#b22222, #8b0000);
+	background:-moz-linear-gradient(#b22222, #8b0000);
+	background: -webkit-linear-gradient(#b22222, #8b0000);
+	width: 100%;
+	z-index: 9999;
+}
+ul li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: inline;
+	position: relative;
+}
+ul li a{
+	border-right:1px dotted #fff;
+	padding: 13px 25px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	background: linear-gradient(#b22222, #8b0000);
+	background:-moz-linear-gradient(#b22222, #8b0000);
+	background: -webkit-linear-gradient(#b22222, #8b0000);
+}
+ul li a:hover{
+	background: linear-gradient(#006400,#28b422);
+	background:-moz-linear-gradient(#006400, #28b422);
+	background: -webkit-linear-gradient(#006400, #28b422);
+}
+ul li:hover> ul{
+	visibility: visible;
+
+}
+ul ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+	position: absolute;
+	width:180px;
+	border-top: 1px solid #fff;
+}
+ul ul li a{
+	padding: 9px 15px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	width: 159px;
+	border-bottom: 1px dotted #fff;
+}
+ul ul li ul{
+	top: 0;
+	left: 181px;
+}
+.srcbar {
+	font-size: 15px;
+	text-align: right;
+	font-family: forte;
+	padding-top: 15px;
+}
+.gallery{
+	margin: 10px 50px;
+	width: 900px;
+	height: 1000px;
+}
+.gallery img{
+		transition: 1s;
+		padding: 20px;
+		width: 300px;
+}
+.gallery img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+.tekst1{
+	font-family: forte;
+	font-size: 25px;
+	float: right;
+	width: 350px;
+	text-align: justify;
+	margin-right: 60px;
+	background-color: lightgray;
+	height: 300px;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 30px;
+}
+.mediji{
+	background-color: #17334a;
+	margin-top: 50px;
+	margin-right: 70px;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	font-family: forte;
+	height: 280px;
+	border-radius: 40px;
+	padding:30px;
+}
+.grad{
+	background-color: green;
+	margin-top: 70px;
+	margin-right: 70px;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	font-family: forte;
+	height: 280px;
+	border-radius: 40px;
+	padding:30px;
+}

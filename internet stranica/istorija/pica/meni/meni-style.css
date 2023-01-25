@@ -1,0 +1,66 @@
+.naziv{
+	background-color: #7297b5;
+	text-align: center;
+	font-size: 20px;
+	font-family: forte;
+}
+.uvod{
+	background-image: url(persun.jpg);
+	font-family: forte;
+	font-size: 40px;
+	height: 200px;
+}
+.tekst{
+	font-size: 30px;
+	font-family: forte;
+}
+.pozadina{
+	background-color: #9c251c;
+}
+.hartija{
+	background-image: url(har1.png);
+	width: 500px;
+	height: 500px;
+	padding-top: 80px;
+	text-align: center;
+	font-family: forte;
+	font-size: 20px;
+	float: right;
+	margin-right: 50px;
+}
+.hartija1{
+	background-image: url(har1.png);
+	width: 500px;
+	height: 500px;
+	padding-top: 80px;
+	text-align: center;
+	font-family: forte;
+	font-size: 20px;
+	margin-left: 50px;
+}
+.hartija2{
+	background-image: url(har1.png);
+	width: 500px;
+	height: 500px;
+	padding-top: 80px;
+	text-align: center;
+	float: right;
+	font-family: forte;
+	font-size: 20px;
+	margin-right: 50px;
+}
+.hartija3{
+	background-image: url(har1.png);
+	width: 500px;
+	height: 500px;
+	padding-top: 80px;
+	text-align: center;
+	font-family: forte;
+	font-size: 20px;
+	margin-left: 50px;
+}
+.donji{
+	text-align: center;
+	font-size: 20px;
+	
+}

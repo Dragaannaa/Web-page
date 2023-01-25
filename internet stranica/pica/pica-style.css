@@ -1,0 +1,141 @@
+body{
+	background-color: #820e05;
+}
+.uvod {background-image: url("daske.jpg");
+		background-size: center;
+		background-position:center;
+		 }
+.tekst{font-size:20px;
+		font-family: forte;
+		color:black;
+		padding-left:20px;
+		padding-bottom:25px;
+		text-shadow: 2px 3px gray;
+	}
+.naslov{
+	font-family: forte;
+	font-size: 50px;
+}
+.nav{
+	width: 100%;
+	font-size: 23px;
+	font-family: Forte;
+	letter-spacing: 3px;
+	text-align: center;
+}
+ul{
+	margin: 0 auto;
+	float: left;
+	background: linear-gradient(#b22222, #8b0000);
+	background:-moz-linear-gradient(#b22222, #8b0000);
+	background: -webkit-linear-gradient(#b22222, #8b0000);
+	width: 100%;
+}
+ul li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: inline;
+	position: relative;
+}
+ul li a{
+	border-right:1px dotted #fff;
+	padding: 13px 25px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	background: linear-gradient(#b22222, #8b0000);
+	background:-moz-linear-gradient(#b22222, #8b0000);
+	background: -webkit-linear-gradient(#b22222, #8b0000);
+}
+ul li a:hover{
+	background: linear-gradient(#006400,#28b422);
+	background:-moz-linear-gradient(#006400, #28b422);
+	background: -webkit-linear-gradient(#006400, #28b422);
+}
+ul li:hover> ul{
+	visibility: visible;
+
+}
+ul ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+	position: absolute;
+	width:180px;
+	border-top: 1px solid #fff;
+}
+ul ul li a{
+	padding: 9px 15px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	width: 159px;
+	border-bottom: 1px dotted #fff;
+}
+ul ul li ul{
+	top: 0;
+	left: 181px;
+}
+.srcbar {
+	font-size: 15px;
+	text-align: right;
+	font-family: forte;
+	padding-top: 15px;
+
+
+}
+.uvod1{
+	width: 1200px;
+	height: 200px;
+	font-family: forte;
+	font-size: 30px;
+	background-color:gray;
+	padding: 20px;
+}
+.bezalkoholna{
+	width:1000px; 
+	height:1100px;
+	background-image: url(har1.png);
+	margin-left: 60px;
+}
+.negazirana{
+	font-family: "Freestyle Script";
+	font-size:30px;
+	float: right;
+	padding-right: 140px;
+	padding-top: 160px;
+	
+}
+.gazirana{
+	font-size: 30px;
+	font-family: "Freestyle Script";
+	padding-left: 190px;
+}
+.slika1{
+	padding-left: 80px;
+	padding-top: 180px;
+}
+.alkoholna{
+	width:1000px; 
+	height:1100px;
+	background-image: url(har1.png);
+	margin-left: 60px;
+}
+.alko{	
+	font-size: 30px;
+	font-family: "Freestyle Script";
+	padding-top: 130px;
+	float: right;
+	padding-right: 120px;
+}
+.vina{
+	font-size: 30px;
+	font-family: "Freestyle Script";
+	padding-left: 190px;
+	padding-top: 190px;
+
+}

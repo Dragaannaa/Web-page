@@ -1,0 +1,126 @@
+body{
+	background-color: #820e05;
+}
+.uvod {background-image: url("daske.jpg");
+		background-size: center;
+		background-position:center;
+		 }
+.tekst{font-size:20px;
+		font-family: forte;
+		color:black;
+		padding-left:20px;
+		padding-bottom:25px;
+		text-shadow: 2px 3px gray;
+	}
+.naslov{
+	font-family: forte;
+	font-size: 50px;
+}
+
+ul {
+	margin: 10px;
+	padding:10px;
+	list-style: none;
+
+
+}
+
+ul li {
+	float: left;
+	width:240px;
+	height: 40px; 
+	background-color: lightgray;
+	font-family: forte;
+	line-height: 40px;
+	text-align: center;
+	font-size: 30px;
+	margin-right: 5px;
+	border-radius: 50px;
+
+
+
+}
+
+ul li a {
+text-decoration: none;
+color: #94231b;
+display: block;
+
+
+}
+
+ul li a:hover {
+	background-color: gray;
+
+
+} 	
+
+ul li ul li {
+display: none;
+
+}
+
+
+ul li:hover ul li {
+display: block;
+
+}
+
+.srcbar {
+	font-size: 5px;
+	text-align: center;
+	font-family: forte;
+
+
+}
+.uvod1{
+	width: 1200px;
+	height: 200px;
+	font-family: forte;
+	font-size: 30px;
+	background-color:gray;
+	padding: 20px;
+}
+.bezalkoholna{
+	width:1000px; 
+	height:1100px;
+	background-image: url(har1.png);
+	margin-left: 60px;
+}
+.negazirana{
+	font-family: "Freestyle Script";
+	font-size:30px;
+	float: right;
+	padding-right: 140px;
+	padding-top: 160px;
+	
+}
+.gazirana{
+	font-size: 30px;
+	font-family: "Freestyle Script";
+	padding-left: 190px;
+}
+.slika1{
+	padding-left: 80px;
+	padding-top: 180px;
+}
+.alkoholna{
+	width:1000px; 
+	height:1100px;
+	background-image: url(har1.png);
+	margin-left: 60px;
+}
+.alko{	
+	font-size: 30px;
+	font-family: "Freestyle Script";
+	padding-top: 130px;
+	float: right;
+	padding-right: 120px;
+}
+.vina{
+	font-size: 30px;
+	font-family: "Freestyle Script";
+	padding-left: 190px;
+	padding-top: 190px;
+
+}

@@ -1,0 +1,29 @@
+.prvi{
+	font-size: 50px;
+	font-family: forte;
+	background-color: #ab90d6;
+	height: 100px;
+	text-align: center;
+}
+.drugi{
+	width: 500px;
+	height: 600px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.treci{
+	float: right;
+}
+.radno{
+	float: right;
+	font-size: 20px;
+	padding-right: 30px;
+	margin-right: 70px;
+	margin-top: 160px;
+}
+.tekst{
+	text-align: center;
+	font-family: forte;
+	font-size: 30px;
+	color: #ab90d6;
+}

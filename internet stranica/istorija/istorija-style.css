@@ -1,0 +1,170 @@
+.naslov {color:black ;
+		font-size:65px;
+		font-family: forte;
+		padding-left: 20px;
+		padding-top:20px;
+		text-shadow: 2px 3px white;
+		letter-spacing:6px; 
+	}
+body { background-color: #919091;
+}
+.vrh{
+	background-color: #94231b;
+	color: white;
+	font-family: forte;
+	font-size: 20px;
+}
+.uvod {background-image: url("daske.jpg");
+		background-size: center;
+		background-position:center;
+		 }
+.tekst{font-size:20px;
+		font-family: forte;
+		color:black;
+		padding-left:20px;
+		padding-bottom:25px;
+		text-shadow: 2px 3px gray;
+	}
+
+.ikona{ 
+	border-radius: 15px;
+	
+
+}
+
+.nav{
+	width: 100%;
+	font-size: 23px;
+	font-family: Forte;
+	letter-spacing: 3px;
+	text-align: center;
+}
+ul{
+	margin: 0 auto;
+	float: left;
+	background: linear-gradient(#b22222, #8b0000);
+	background:-moz-linear-gradient(#b22222, #8b0000);
+	background: -webkit-linear-gradient(#b22222, #8b0000);
+	width: 100%;
+}
+ul li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: inline;
+	position: relative;
+}
+ul li a{
+	border-right:1px dotted #fff;
+	padding: 13px 25px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	background: linear-gradient(#b22222, #8b0000);
+	background:-moz-linear-gradient(#b22222, #8b0000);
+	background: -webkit-linear-gradient(#b22222, #8b0000);
+}
+ul li a:hover{
+	background: linear-gradient(#006400,#28b422);
+	background:-moz-linear-gradient(#006400, #28b422);
+	background: -webkit-linear-gradient(#006400, #28b422);
+}
+ul li:hover> ul{
+	visibility: visible;
+
+}
+ul ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+	position: absolute;
+	width:180px;
+	border-top: 1px solid #fff;
+}
+ul ul li a{
+	padding: 9px 15px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	width: 159px;
+	border-bottom: 1px dotted #fff;
+}
+ul ul li ul{
+	top: 0;
+	left: 181px;
+}
+.srcbar {
+	font-size: 15px;
+	text-align: right;
+	font-family: forte;
+	padding-top: 15px;
+
+
+}
+.restoran {
+	background-color: #e0d36c;
+	margin-top: 60px;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	font-family: forte;
+	height: 400px;
+	border-radius: 40px;
+
+}
+.mediji{
+	background-color: #17334a;
+	margin-top: 90px;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	font-family: forte;
+	height: 290px;
+	border-radius: 40px;
+
+}
+.grad{
+	background-color: green;
+	margin-top: 100px;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	font-family: forte;
+	height: 300px;
+	border-radius: 40px;
+	padding:30px;
+	
+
+}
+
+.istorija{
+	width: 700px;
+	height: 900px;
+	border-radius: 9px;
+	padding: 20px;
+	text-align: justify;
+	margin-left: 90px;
+	float: left;
+	background-color: #94231b;;
+	margin-top: 120px;
+	font-family: "Freestyle Script";
+	font-size: 40px;
+	grid-template-columns: 200px 200px 200px 5px;
+	justify-content: space-around;
+}
+.kontakti{
+	width: 1230px;
+	height: 300px;
+	padding-top: 650px;
+	font-family: forte;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 30px;
+}
+.zadnje{
+	margin-top: 1250px;
+	text-align: center;
+}
